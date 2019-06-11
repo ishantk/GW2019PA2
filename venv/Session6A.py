@@ -33,3 +33,11 @@ totalBill = 1000
 dis  = getDicsount("FLAT50", totalBill)
 print("Discount is:",dis)
 print("Please Pay:",totalBill-dis)
+
+# Assignment
+# Apply below rules to above function
+# 1. FLAT50 PC should work for billing amount > 1000
+# 2. FLAT30 PC should work for billing amount > 500 and less than 1000
+# 3. FLAT10 PC should work for billing amount > 200 and less than 300
+# 4. if user has not applied the code, suggest him the correct code
+# 5. if user has applied wrong code suggest him the correct one
