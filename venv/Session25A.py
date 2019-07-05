@@ -25,3 +25,4 @@ print("==1st Pixel of Image===")
 print(img[0][0])
 
 print(len(img[0]))      #
+
