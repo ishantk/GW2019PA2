@@ -113,3 +113,11 @@ MY = np.mean(Y)
 
 print(MX)
 print(MY)
+
+Y1 = []
+for x in X:
+    y = 2.2 + 0.6 * x
+    Y1.append(y)
+
+print(Y1)
+
