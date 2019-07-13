@@ -8,6 +8,7 @@ input4 = np.array([1, 1])
 
 #2. Create Activation Function
 theta = 1
+
 # Binary Step
 def activation(s):
     if s >= theta:

@@ -62,7 +62,8 @@ input2 = np.array([0, 1])
 input3 = np.array([1, 0])
 input4 = np.array([1, 1])
 
-weights = np.array([0.5, 0.5])
+# weights = np.array([0.5, 0.5])
+weights = np.array([1.1, 1.1])
 
 # Object Construction Statement
 neuron = Perceptron(input4, weights)
